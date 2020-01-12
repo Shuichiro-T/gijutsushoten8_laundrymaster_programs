@@ -1,0 +1,1 @@
+# gijutsushoten8_laundrymaster_prorams

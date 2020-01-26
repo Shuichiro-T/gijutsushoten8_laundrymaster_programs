@@ -1,0 +1,50 @@
+[
+    {
+        "description": "計測器のID",
+        "mode": "REQUIRED",
+        "name": "ID",
+        "type": "INTEGER"
+    },
+    {
+        "description": "計測器が置いてある経度",
+        "mode": "NULLABLE",
+        "name": "LOCATION_LONGI",
+        "type": "FLOAT"
+    },
+    {
+        "description": "計測器が置いてある緯度",
+        "mode": "NULLABLE",
+        "name": "LOCATION_LATI",
+        "type": "FLOAT"
+    },
+    {
+        "description": "計測器が計測した時間",
+        "mode": "REQUIRED",
+        "name": "DEVICE_DATETIME",
+        "type": "DATETIME"
+    },
+    {
+        "description": "計測器が計測した気温",
+        "mode": "REQUIRED",
+        "name": "TEMPERATURE",
+        "type": "FLOAT"
+    },
+    {
+        "description": "計測器が計測した気圧",
+        "mode": "REQUIRED",
+        "name": "PRESSURE",
+        "type": "FLOAT"
+    },
+    {
+        "description": "計測器が計測した湿度",
+        "mode": "REQUIRED",
+        "name": "HUMIDITY",
+        "type": "FLOAT"
+    },
+    {
+        "description": "データが追加された時刻",
+        "mode": "NULLABLE",
+        "name": "TIMESTAMP",
+        "type": "TIMESTAMP"
+    }
+]
